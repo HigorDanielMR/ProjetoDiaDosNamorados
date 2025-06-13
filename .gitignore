@@ -1,0 +1,106 @@
+# =============== #
+# C# / .NET Rules #
+# =============== #
+
+## Ignore build results
+bin/
+obj/
+out/
+
+## User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Visual Studio Code settings
+.vscode/
+
+## Build logs
+*.log
+
+## OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+## NuGet packages
+*.nupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+
+## ASP.NET
+*.publishsettings
+*.dbmdl
+*.jfm
+*.pdb
+
+# Rider (JetBrains)
+.idea/
+*.sln.iml
+
+# DotCover
+*.dotCover
+
+# Dotnet environment files
+.env
+*.env.*
+
+# Temporary ASP.NET files
+**/App_Data/Logs/
+**/App_Data/Temp/
+
+# ============== #
+# Vue.js Rules   #
+# ============== #
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Dependency directories
+node_modules/
+bower_components/
+
+# ✅ Permitir a build `dist/` para ser usada no GitHub Pages
+# dist/  << Removido para permitir publicação
+# Se quiser ignorar localmente mas manter no git:
+# Use "assume-unchanged" ou publique para outra branch com gh-pages
+
+# Build output alternativo
+build/
+*.local
+
+# Environment files
+.env
+.env.*.local
+
+# IDE settings
+.idea/
+.vscode/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# npm cache
+.npm/
+
+# Test coverage
+coverage/
+
+# Lint and cache
+.eslintcache
+
+# Optional
+*.tgz
+*.gz
+
+# Lock files (opcional — descomente o que não usar)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
